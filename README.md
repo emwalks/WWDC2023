@@ -3,20 +3,6 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 
 **NOTE** AVPlayer still needs to be wrapped in a UIViewControllerRepresentable to use it in Swift UI 😥
 
-## Spatial AV (VisionOS apps only)
-
-[Create a great spatial playback experience](https://developer.apple.com/videos/play/wwdc2023/10070/)
-- Jeremy Jones: Media Experience Team
-- Requirements:
-  - Xcode target must build with this platform's SDK. Compatible iOS apps built with the iOS SDK will get an iOS compatible experience.
-  - Use AVPlayerViewController
-  - Present the view controller so it fills the window.
-  - Create a new player item with the content URL and set it on the player.
-  - Adding the item after setting the player on the view controller can **improve performance** because the player will understand how it will be displayed before it starts loading the media.
-  - Then, to use it in SwiftUI, wrap that code in a UIViewControllerRepresentable.
-
-[Deliver video content for spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10071/)
-
 ## Peripherals
 
 [Integrate your media app with HomePod](https://developer.apple.com/videos/play/wwdc2023/10104/)
@@ -33,7 +19,25 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 
 [Reduce network delays with L4S](https://developer.apple.com/videos/play/wwdc2023/10004/)
 
+## Spatial AV (VisionOS apps only)
+
+[Create a great spatial playback experience](https://developer.apple.com/videos/play/wwdc2023/10070/)
+- Jeremy Jones: Media Experience Team
+- Requirements:
+  - Xcode target must build with this platform's SDK. Compatible iOS apps built with the iOS SDK will get an iOS compatible experience.
+  - Use AVPlayerViewController
+  - Present the view controller so it fills the window.
+  - Create a new player item with the content URL and set it on the player.
+  - Adding the item after setting the player on the view controller can **improve performance** because the player will understand how it will be displayed before it starts loading the media.
+  - Then, to use it in SwiftUI, wrap that code in a UIViewControllerRepresentable.
+
+[Deliver video content for spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10071/)
+
+[Optimize app power and performance for spatial computing](https://developer.apple.com/videos/play/wwdc2023/10100)
+
+
 ## Cinematic Video
 
 [Support Cinematic mode videos in your app](https://developer.apple.com/videos/play/wwdc2023/10137/)
 - Cinematic Camera API
+
