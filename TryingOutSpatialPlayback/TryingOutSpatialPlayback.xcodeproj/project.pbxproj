@@ -14,6 +14,7 @@
 		9818EE172A5800690089C728 /* TryingOutSpatialPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE162A5800690089C728 /* TryingOutSpatialPlaybackTests.swift */; };
 		9818EE212A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE202A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift */; };
 		9818EE232A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */; };
+		9818EE312A58050F0089C728 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9818EE302A58050F0089C728 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9818EE1C2A5800690089C728 /* TryingOutSpatialPlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryingOutSpatialPlaybackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9818EE202A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackUITests.swift; sourceTree = "<group>"; };
 		9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9818EE302A58050F0089C728 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,7 @@
 			children = (
 				9818EE052A5800660089C728 /* TryingOutSpatialPlaybackApp.swift */,
 				9818EE072A5800660089C728 /* ContentView.swift */,
-				9818EE092A5800690089C728 /* Assets.xcassets */,
-				9818EE0B2A5800690089C728 /* Preview Content */,
+				9818EE2F2A58042B0089C728 /* Utils */,
 			);
 			path = TryingOutSpatialPlayback;
 			sourceTree = "<group>";
@@ -125,6 +126,16 @@
 				9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */,
 			);
 			path = TryingOutSpatialPlaybackUITests;
+			sourceTree = "<group>";
+		};
+		9818EE2F2A58042B0089C728 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9818EE302A58050F0089C728 /* Launch Screen.storyboard */,
+				9818EE092A5800690089C728 /* Assets.xcassets */,
+				9818EE0B2A5800690089C728 /* Preview Content */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9818EE312A58050F0089C728 /* Launch Screen.storyboard in Resources */,
 				9818EE0D2A5800690089C728 /* Preview Assets.xcassets in Resources */,
 				9818EE0A2A5800690089C728 /* Assets.xcassets in Resources */,
 			);
@@ -416,13 +428,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TryingOutSpatialPlayback/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TryingOutSpatialPlayback/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,13 +458,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TryingOutSpatialPlayback/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TryingOutSpatialPlayback/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
