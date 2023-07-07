@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationLink("AV Player VC") {
+                // AVPlayerViewControllerView
+            }
+                .padding()
+            //default padding is useful as it will be platform specific - eg watch etc
+                .padding()
+                .navigationTitle("Spatial Playback")
         }
-        .padding()
     }
 }
 
