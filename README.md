@@ -4,6 +4,7 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 ## Cinematic Video
 
 [Support Cinematic mode videos in your app](https://developer.apple.com/videos/play/wwdc2023/10137/)
+- Cinematic Camera API
 
 ## Spatial AV 
 
