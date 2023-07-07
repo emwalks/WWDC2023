@@ -1,15 +1,14 @@
 # WWDC2023
 Collects some WWDC 2023 resources specifically pertaining to media and playback
 
-## Cinematic Video
-
-[Support Cinematic mode videos in your app](https://developer.apple.com/videos/play/wwdc2023/10137/)
-- Cinematic Camera API
-
 ## Spatial AV 
 
 [Create a great spatial playback experience](https://developer.apple.com/videos/play/wwdc2023/10070/)
-- Jeremy Jones: Media Experience Team 
+- Jeremy Jones: Media Experience Team
+- Requirements:
+  - Xcode target must build with this platform's SDK. Compatible iOS apps built with the iOS SDK will get an iOS compatible experience.
+  - Use AVPlayerViewController
+  - Present the view controller so it fills the window.
 
 [Deliver video content for spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10071/)
 
@@ -28,3 +27,8 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 ## Latency
 
 [Reduce network delays with L4S](https://developer.apple.com/videos/play/wwdc2023/10004/)
+
+## Cinematic Video
+
+[Support Cinematic mode videos in your app](https://developer.apple.com/videos/play/wwdc2023/10137/)
+- Cinematic Camera API
