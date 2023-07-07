@@ -9,6 +9,7 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 ## Spatial AV 
 
 [Create a great spatial playback experience](https://developer.apple.com/videos/play/wwdc2023/10070/)
+- Jeremy Jones: Media Experience Team 
 
 [Deliver video content for spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10071/)
 
