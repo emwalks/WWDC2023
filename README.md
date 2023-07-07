@@ -3,7 +3,7 @@ Collects some WWDC 2023 resources specifically pertaining to media and playback
 
 **NOTE** AVPlayer still needs to be wrapped in a UIViewControllerRepresentable to use it in Swift UI 😥
 
-## Spatial AV (Vision OS only)
+## Spatial AV (VisionOS apps only)
 
 [Create a great spatial playback experience](https://developer.apple.com/videos/play/wwdc2023/10070/)
 - Jeremy Jones: Media Experience Team
