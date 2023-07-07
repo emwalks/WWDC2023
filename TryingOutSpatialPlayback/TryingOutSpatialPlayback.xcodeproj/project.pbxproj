@@ -15,6 +15,7 @@
 		9818EE212A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE202A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift */; };
 		9818EE232A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */; };
 		9818EE312A58050F0089C728 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9818EE302A58050F0089C728 /* Launch Screen.storyboard */; };
+		9818EE352A580AB60089C728 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE342A580AB60089C728 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9818EE202A5800690089C728 /* TryingOutSpatialPlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackUITests.swift; sourceTree = "<group>"; };
 		9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9818EE302A58050F0089C728 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9818EE342A580AB60089C728 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				9818EE052A5800660089C728 /* TryingOutSpatialPlaybackApp.swift */,
 				9818EE072A5800660089C728 /* ContentView.swift */,
+				9818EE342A580AB60089C728 /* PlayerView.swift */,
 				9818EE2F2A58042B0089C728 /* Utils */,
 			);
 			path = TryingOutSpatialPlayback;
@@ -271,6 +274,7 @@
 			files = (
 				9818EE082A5800660089C728 /* ContentView.swift in Sources */,
 				9818EE062A5800660089C728 /* TryingOutSpatialPlaybackApp.swift in Sources */,
+				9818EE352A580AB60089C728 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

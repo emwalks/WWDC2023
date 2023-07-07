@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationLink("AV Player VC") {
-                // AVPlayerViewControllerView
+                PlayerView()
             }
                 .padding()
             //default padding is useful as it will be platform specific - eg watch etc
