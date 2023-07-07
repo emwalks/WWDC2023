@@ -9,6 +9,7 @@ import SwiftUI
 import AVFoundation
 import AVKit
 
+// https://developer.apple.com/videos/play/wwdc2023/10070/
 
 struct PlayerView: UIViewControllerRepresentable {
 

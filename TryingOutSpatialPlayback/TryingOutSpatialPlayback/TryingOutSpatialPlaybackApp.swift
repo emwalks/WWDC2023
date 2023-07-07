@@ -11,7 +11,6 @@ import SwiftUI
 struct TryingOutSpatialPlaybackApp: App {
     var body: some Scene {
         WindowGroup {
-            //PlayerView()
             NavigationView {
                 ContentView()
             }
