@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6B3F9746C81A8B4E93C7F6 /* Pods_TryingOutSpatialPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F11C7093F8AC47075363AE /* Pods_TryingOutSpatialPlayback.framework */; };
+		36A77E1D24E2413DCE3EA225 /* Pods_TryingOutSpatialPlaybackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1FC16559BE7F14A0007799 /* Pods_TryingOutSpatialPlaybackTests.framework */; };
+		93DEFA9F3DB7534B417A7831 /* Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A23E04CF70D2D14F522E22 /* Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework */; };
+		980D66D72A5850BB00F68E8E /* SMPPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D66D62A5850BB00F68E8E /* SMPPlayerView.swift */; };
+		980D66D92A5851BE00F68E8E /* AVStatisticsConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D66D82A5851BE00F68E8E /* AVStatisticsConsumer.swift */; };
 		9818EE062A5800660089C728 /* TryingOutSpatialPlaybackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE052A5800660089C728 /* TryingOutSpatialPlaybackApp.swift */; };
 		9818EE082A5800660089C728 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818EE072A5800660089C728 /* ContentView.swift */; };
 		9818EE0A2A5800690089C728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9818EE092A5800690089C728 /* Assets.xcassets */; };
@@ -36,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA64FA50EC3C50A9B652514 /* Pods-TryingOutSpatialPlaybackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlaybackTests.release.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlaybackTests/Pods-TryingOutSpatialPlaybackTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E296AE458EAF778362DB310 /* Pods-TryingOutSpatialPlayback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlayback.debug.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback.debug.xcconfig"; sourceTree = "<group>"; };
+		4B97D15549AD87D10905D7D9 /* Pods-TryingOutSpatialPlayback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlayback.release.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback.release.xcconfig"; sourceTree = "<group>"; };
+		6FFB471D77743C4CD2ECE8BA /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.debug.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78D4A07E54DF8FD7B4869FB0 /* Pods-TryingOutSpatialPlaybackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlaybackTests.debug.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlaybackTests/Pods-TryingOutSpatialPlaybackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		980D66D62A5850BB00F68E8E /* SMPPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPPlayerView.swift; sourceTree = "<group>"; };
+		980D66D82A5851BE00F68E8E /* AVStatisticsConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVStatisticsConsumer.swift; sourceTree = "<group>"; };
 		9818EE022A5800660089C728 /* TryingOutSpatialPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryingOutSpatialPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9818EE052A5800660089C728 /* TryingOutSpatialPlaybackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackApp.swift; sourceTree = "<group>"; };
 		9818EE072A5800660089C728 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +60,10 @@
 		9818EE222A5800690089C728 /* TryingOutSpatialPlaybackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOutSpatialPlaybackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9818EE302A58050F0089C728 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9818EE342A580AB60089C728 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BA59BACA7BBBECCDA7DAB231 /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.release.xcconfig"; path = "Target Support Files/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3F11C7093F8AC47075363AE /* Pods_TryingOutSpatialPlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryingOutSpatialPlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1FC16559BE7F14A0007799 /* Pods_TryingOutSpatialPlaybackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryingOutSpatialPlaybackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A23E04CF70D2D14F522E22 /* Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6B3F9746C81A8B4E93C7F6 /* Pods_TryingOutSpatialPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A77E1D24E2413DCE3EA225 /* Pods_TryingOutSpatialPlaybackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DEFA9F3DB7534B417A7831 /* Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40F3AE2D324A441CF6064C9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E296AE458EAF778362DB310 /* Pods-TryingOutSpatialPlayback.debug.xcconfig */,
+				4B97D15549AD87D10905D7D9 /* Pods-TryingOutSpatialPlayback.release.xcconfig */,
+				6FFB471D77743C4CD2ECE8BA /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.debug.xcconfig */,
+				BA59BACA7BBBECCDA7DAB231 /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.release.xcconfig */,
+				78D4A07E54DF8FD7B4869FB0 /* Pods-TryingOutSpatialPlaybackTests.debug.xcconfig */,
+				1BA64FA50EC3C50A9B652514 /* Pods-TryingOutSpatialPlaybackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BCBAA2C24522C874ED70D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F11C7093F8AC47075363AE /* Pods_TryingOutSpatialPlayback.framework */,
+				F2A23E04CF70D2D14F522E22 /* Pods_TryingOutSpatialPlayback_TryingOutSpatialPlaybackUITests.framework */,
+				DE1FC16559BE7F14A0007799 /* Pods_TryingOutSpatialPlaybackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9818EDF92A5800660089C728 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +124,8 @@
 				9818EE152A5800690089C728 /* TryingOutSpatialPlaybackTests */,
 				9818EE1F2A5800690089C728 /* TryingOutSpatialPlaybackUITests */,
 				9818EE032A5800660089C728 /* Products */,
+				40F3AE2D324A441CF6064C9F /* Pods */,
+				4BCBAA2C24522C874ED70D9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +145,8 @@
 				9818EE052A5800660089C728 /* TryingOutSpatialPlaybackApp.swift */,
 				9818EE072A5800660089C728 /* ContentView.swift */,
 				9818EE342A580AB60089C728 /* PlayerView.swift */,
+				980D66D62A5850BB00F68E8E /* SMPPlayerView.swift */,
+				980D66D82A5851BE00F68E8E /* AVStatisticsConsumer.swift */,
 				9818EE2F2A58042B0089C728 /* Utils */,
 			);
 			path = TryingOutSpatialPlayback;
@@ -148,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9818EE262A5800690089C728 /* Build configuration list for PBXNativeTarget "TryingOutSpatialPlayback" */;
 			buildPhases = (
+				FBD13A54304E8DCD6A46DA51 /* [CP] Check Pods Manifest.lock */,
 				9818EDFE2A5800660089C728 /* Sources */,
 				9818EDFF2A5800660089C728 /* Frameworks */,
 				9818EE002A5800660089C728 /* Resources */,
+				748C266DF63FBE7FFE060E62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9818EE292A5800690089C728 /* Build configuration list for PBXNativeTarget "TryingOutSpatialPlaybackTests" */;
 			buildPhases = (
+				1CA9823CF057152455EB7BD5 /* [CP] Check Pods Manifest.lock */,
 				9818EE0E2A5800690089C728 /* Sources */,
 				9818EE0F2A5800690089C728 /* Frameworks */,
 				9818EE102A5800690089C728 /* Resources */,
@@ -183,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9818EE2C2A5800690089C728 /* Build configuration list for PBXNativeTarget "TryingOutSpatialPlaybackUITests" */;
 			buildPhases = (
+				52721CD1A5A9EE07BC06A2C3 /* [CP] Check Pods Manifest.lock */,
 				9818EE182A5800690089C728 /* Sources */,
 				9818EE192A5800690089C728 /* Frameworks */,
 				9818EE1A2A5800690089C728 /* Resources */,
+				CA9422AADF0C99B3C9750A05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,7 +272,7 @@
 				};
 			};
 			buildConfigurationList = 9818EDFD2A5800660089C728 /* Build configuration list for PBXProject "TryingOutSpatialPlayback" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,13 +318,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CA9823CF057152455EB7BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryingOutSpatialPlaybackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52721CD1A5A9EE07BC06A2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		748C266DF63FBE7FFE060E62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9422AADF0C99B3C9750A05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests/Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD13A54304E8DCD6A46DA51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryingOutSpatialPlayback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9818EDFE2A5800660089C728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980D66D92A5851BE00F68E8E /* AVStatisticsConsumer.swift in Sources */,
 				9818EE082A5800660089C728 /* ContentView.swift in Sources */,
 				9818EE062A5800660089C728 /* TryingOutSpatialPlaybackApp.swift in Sources */,
+				980D66D72A5850BB00F68E8E /* SMPPlayerView.swift in Sources */,
 				9818EE352A580AB60089C728 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +583,7 @@
 		};
 		9818EE272A5800690089C728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E296AE458EAF778362DB310 /* Pods-TryingOutSpatialPlayback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +614,7 @@
 		};
 		9818EE282A5800690089C728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B97D15549AD87D10905D7D9 /* Pods-TryingOutSpatialPlayback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +645,7 @@
 		};
 		9818EE2A2A5800690089C728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D4A07E54DF8FD7B4869FB0 /* Pods-TryingOutSpatialPlaybackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +666,7 @@
 		};
 		9818EE2B2A5800690089C728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA64FA50EC3C50A9B652514 /* Pods-TryingOutSpatialPlaybackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +687,7 @@
 		};
 		9818EE2D2A5800690089C728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFB471D77743C4CD2ECE8BA /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +706,7 @@
 		};
 		9818EE2E2A5800690089C728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA59BACA7BBBECCDA7DAB231 /* Pods-TryingOutSpatialPlayback-TryingOutSpatialPlaybackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TryingOutSpatialPlayback/Pods-TryingOutSpatialPlayback-frameworks.sh
+${BUILT_PRODUCTS_DIR}/config-service/ConfigService.framework
+${BUILT_PRODUCTS_DIR}/httpclient-ios/HTTPClient.framework
+${BUILT_PRODUCTS_DIR}/mediaselector-client-ios/MediaSelector.framework
+${BUILT_PRODUCTS_DIR}/smp-ios/SMP.framework

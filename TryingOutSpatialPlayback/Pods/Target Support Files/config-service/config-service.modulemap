@@ -1,0 +1,6 @@
+framework module ConfigService {
+  umbrella header "config-service-umbrella.h"
+
+  export *
+  module * { export * }
+}

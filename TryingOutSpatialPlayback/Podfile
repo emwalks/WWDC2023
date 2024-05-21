@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '16.0'
+ source 'git@github.com:bbc/map-ios-podspecs.git'
+
+
+target 'TryingOutSpatialPlayback' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TryingOutSpatialPlayback
+  pod 'smp-ios'
+
+  target 'TryingOutSpatialPlaybackTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TryingOutSpatialPlaybackUITests' do
+    # Pods for testing
+  end
+
+end
